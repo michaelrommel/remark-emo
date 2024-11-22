@@ -1,0 +1,31 @@
+{
+	"name": "remark-emo",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "remark plugin for emojis and emoticons",
+	"scripts": {},
+	"main": "index.js",
+	"module": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/michaelrommel/remark-emo.git"
+	},
+	"keywords": [
+		"markdown",
+		"emoji",
+		"remark",
+		"plugin"
+	],
+	"author": "michaelrommel <rommel@layer-7.net>",
+	"license": "MIT",
+	"homepage": "https://github.com/michaelrommel/remark-emo",
+	"dependencies": {
+		"esm": "^3.2.25",
+		"@types/mdast": "^4.0.4",
+		"emoticon": "^4.0.1",
+		"eslint": "^9.15.0",
+		"mdast-util-find-and-replace": "^3.0.1",
+		"node-emoji": "^2.1.3",
+		"unified": "^11.0.4"
+	}
+}
