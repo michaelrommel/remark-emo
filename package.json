@@ -1,6 +1,6 @@
 {
 	"name": "remark-emo",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"description": "remark plugin for emojis and emoticons",
 	"scripts": {},
@@ -8,7 +8,6 @@
 	"exports": {
 		".": {
 			"import": {
-				"types": "./index.d.ts",
 				"default": "./index.js"
 			}
 		}
@@ -27,8 +26,6 @@
 	"license": "MIT",
 	"homepage": "https://github.com/michaelrommel/remark-emo",
 	"dependencies": {
-		"esm": "^3.2.25",
-		"@types/mdast": "^4.0.4",
 		"emoticon": "^4.0.1",
 		"eslint": "^9.15.0",
 		"mdast-util-find-and-replace": "^3.0.1",
