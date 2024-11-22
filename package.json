@@ -1,6 +1,6 @@
 {
 	"name": "remark-emo",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"type": "module",
 	"description": "remark plugin for emojis and emoticons",
 	"scripts": {},
@@ -8,6 +8,7 @@
 	"exports": {
 		".": {
 			"import": {
+				"types": "./index.d.ts",
 				"default": "./index.js"
 			}
 		}
