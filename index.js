@@ -91,4 +91,4 @@ const plugin = (options) => {
 	return transformer;
 };
 
-export { plugin };
+export default plugin;
